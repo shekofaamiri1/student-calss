@@ -19,3 +19,7 @@ void setGrade(float g) {
         if (g >= 0.0 && g <= 100.0) grade = g;
         else cout << "Invalid grade!" << endl;
     }
+    // Getter ها
+    string getName() const {
+        return name;
+    }
