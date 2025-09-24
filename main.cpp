@@ -29,3 +29,7 @@ void setGrade(float g) {
     float getGrade() const {
         return grade;
     }
+    void display() const {
+        cout << "Name: " << name << "\nAge: " << age << "\nGrade: " << grade << endl;
+    }
+};
