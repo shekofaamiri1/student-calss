@@ -33,3 +33,20 @@ void setGrade(float g) {
         cout << "Name: " << name << "\nAge: " << age << "\nGrade: " << grade << endl;
     }
 };
+nt main() {
+    Student s, s1;
+
+    s.setName("Ali");
+    s.setAge(20);
+    s.setGrade(87.5);
+
+    s.display();
+    cout <<"\n-------------------------------\n";
+    s1.setName("Mohammadi.......");
+    s1.setAge(32);
+    s1.setGrade(8.0);
+
+    s1.display();
+
+    return 0;
+}
