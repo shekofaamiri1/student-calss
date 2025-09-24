@@ -26,3 +26,6 @@ void setGrade(float g) {
     int getAge() const {
         return age;
     }
+    float getGrade() const {
+        return grade;
+    }
