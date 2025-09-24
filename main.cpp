@@ -23,3 +23,6 @@ void setGrade(float g) {
     string getName() const {
         return name;
     }
+    int getAge() const {
+        return age;
+    }
